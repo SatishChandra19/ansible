@@ -1,0 +1,7 @@
+- name: hello playbook
+  hosts: web
+  tasks: #task=module=collection
+   - name: printhello world     
+     ansible.builtin.debug:
+       msg: "Hello World"
+      

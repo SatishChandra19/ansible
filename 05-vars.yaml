@@ -2,9 +2,9 @@
   hosts: local
   connection: local
   vars:
-    Course: "Devops with AWS"
-    Duration: 120hours
-    Trainer: sivakumar
+    COURSE: "Devops with AWS"
+    DURATION: 120hours
+    TRAINER: sivakumar
   tasks:
   - name: print the variable
     ansible.builtin.debug:

@@ -1,0 +1,5 @@
+- name: Install Nginx
+  hosts: web
+  become: yes 
+  tasks: install nginx if RHEL
+  - name: install
